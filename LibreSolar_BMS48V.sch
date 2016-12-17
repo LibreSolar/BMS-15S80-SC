@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.6.0">
+<eagle version="7.7.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -19746,7 +19746,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <attribute name="MPN" value="WCR0805-120RFI"/>
 <attribute name="OC_FARNELL" value="1100308"/>
 </part>
-<part name="D1" library="LibreSolar" deviceset="PESD2CAN" device="" value="PESD2CAN">
+<part name="D1" library="LibreSolar" deviceset="PESD2CAN" device="" value="NUP2105L">
 <attribute name="MF" value="NXP"/>
 <attribute name="MPN" value="PESD2CAN"/>
 <attribute name="OC_FARNELL" value="1510712"/>
@@ -19759,13 +19759,13 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </part>
 <part name="GND40" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="CORTEX" library="LibreSolar" deviceset="CORTEX_DEBUG" device="SMD"/>
-<part name="X1" library="crystal" deviceset="CRYSTAL" device="MM20SS" value="ABS25-32.768KHZ-T"/>
-<part name="C47" library="rcl" deviceset="C-EU" device="C0603" value="12.5p">
+<part name="X1" library="crystal" deviceset="CRYSTAL" device="MM20SS" value="ABS25-32.768KHZ-6"/>
+<part name="C47" library="rcl" deviceset="C-EU" device="C0603" value="4.3p">
 <attribute name="MF" value="MURATA"/>
 <attribute name="MPN" value="GRM188R71H104KA93D"/>
 <attribute name="OC_FARNELL" value="8820023"/>
 </part>
-<part name="C48" library="rcl" deviceset="C-EU" device="C0603" value="12.5p">
+<part name="C48" library="rcl" deviceset="C-EU" device="C0603" value="4.3p">
 <attribute name="MF" value="MURATA"/>
 <attribute name="MPN" value="GRM188R71H104KA93D"/>
 <attribute name="OC_FARNELL" value="8820023"/>
@@ -19804,8 +19804,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="GND50" library="SparkFun" deviceset="GND" device=""/>
 <part name="Y1" library="Testing" deviceset="RESONATOR" device="1:1" value="8MHz">
 <attribute name="MF" value="MURATA"/>
-<attribute name="MPN" value="CSTCE8M00G55-R0"/>
-<attribute name="OC_FARNELL" value="2443270"/>
+<attribute name="MPN" value="CSTCE8M00G15C99-R0"/>
 </part>
 <part name="GND3" library="supply1" deviceset="GND" device=""/>
 <part name="TEMP" library="Wire_to_Board_Connectors_rev15d" deviceset="66200621022" device=""/>
@@ -22601,7 +22600,7 @@ License: CC-BY-SA</text>
 <text x="154.94" y="99.06" size="3.81" layer="97">Extension connector</text>
 <text x="274.32" y="238.76" size="3.81" layer="97">CAN interface</text>
 <text x="228.6" y="53.34" size="3.81" layer="97">I2C pull-ups</text>
-<text x="322.58" y="195.58" size="1.778" layer="97">Alternative: NUP2105L</text>
+<text x="322.58" y="195.58" size="1.778" layer="97">Alternative: PESD2CAN</text>
 <text x="99.06" y="20.32" size="1.778" layer="97">Should be 0.1% tolerance
 for CAN interface, e.g.
 CSTCE8M00G15C99-R0</text>
@@ -22818,7 +22817,6 @@ is switched on</text>
 <instance part="Y1" gate="G$1" x="111.76" y="43.18" smashed="yes" rot="R270">
 <attribute name="NAME" x="108.204" y="46.99" size="1.778" layer="95"/>
 <attribute name="VALUE" x="107.442" y="37.592" size="1.778" layer="96"/>
-<attribute name="OC_FARNELL" x="111.76" y="43.18" size="1.27" layer="96" display="off"/>
 <attribute name="MF" x="111.76" y="43.18" size="1.27" layer="96" display="off"/>
 <attribute name="MPN" x="111.76" y="43.18" size="1.27" layer="96" display="off"/>
 </instance>

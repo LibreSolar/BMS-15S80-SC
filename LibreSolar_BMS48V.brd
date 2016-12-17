@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.6.0">
+<eagle version="7.7.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -24,7 +24,7 @@
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
-<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
 <layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
 <layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
@@ -3776,7 +3776,7 @@ Bitte nur von autorisierten erfahrenen Nutzern anwenden!!!
 <attribute name="OC_FARNELL" value="2496834" x="71" y="35" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN" value="0603B104K500CT" x="71" y="35" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MF" value="WALSIN" x="71" y="35" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="71.635" y="35.835" size="0.8128" layer="25" font="vector" rot="R270"/>
+<attribute name="NAME" x="71.635" y="35.835" size="0.6096" layer="25" font="vector" rot="R270"/>
 <attribute name="VALUE" x="69.095" y="35.635" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="R20" library="rcl" package="R2010" value="33" x="70" y="19" smashed="yes" rot="R90">
@@ -4749,7 +4749,7 @@ Bitte nur von autorisierten erfahrenen Nutzern anwenden!!!
 <attribute name="NAME" x="1.67" y="67.87" size="0.8128" layer="25" rot="R270"/>
 <attribute name="VALUE" x="6.27" y="69.54" size="1.27" layer="27" rot="R180"/>
 </element>
-<element name="D1" library="LibreSolar" package="SOT23" value="PESD2CAN" x="10.6" y="64.8" smashed="yes" rot="R270">
+<element name="D1" library="LibreSolar" package="SOT23" value="NUP2105L" x="10.6" y="64.8" smashed="yes" rot="R270">
 <attribute name="MF" value="NXP" x="-55.4" y="151.8" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN" value="PESD2CAN" x="-55.4" y="151.8" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="OC_FARNELL" value="1510712" x="-55.4" y="151.8" size="1.778" layer="27" rot="R270" display="off"/>
@@ -4767,7 +4767,7 @@ Bitte nur von autorisierten erfahrenen Nutzern anwenden!!!
 <attribute name="NAME" x="65.2" y="74.2" size="0.8128" layer="25" rot="R90" align="bottom-center"/>
 <attribute name="VALUE" x="69" y="74" size="0.8128" layer="27" rot="R180" align="top-center"/>
 </element>
-<element name="X1" library="crystal" package="MM20SS" value="ABS25-32.768KHZ-T" x="37" y="59" smashed="yes" rot="R180">
+<element name="X1" library="crystal" package="MM20SS" value="ABS25-32.768KHZ-6" x="37" y="59" smashed="yes" rot="R180">
 <attribute name="MF" value="" x="112" y="151" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="" x="112" y="151" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="OC_FARNELL" value="unknown" x="112" y="151" size="1.778" layer="27" rot="R180" display="off"/>
@@ -4775,14 +4775,14 @@ Bitte nur von autorisierten erfahrenen Nutzern anwenden!!!
 <attribute name="NAME" x="36.74" y="62.06" size="0.8128" layer="25" ratio="10" rot="R180"/>
 <attribute name="VALUE" x="39.54" y="62.81" size="1.27" layer="27" ratio="10" rot="R180"/>
 </element>
-<element name="C47" library="rcl" package="C0603" value="12.5p" x="39" y="63" smashed="yes" rot="R180">
+<element name="C47" library="rcl" package="C0603" value="4.3p" x="39" y="63" smashed="yes" rot="R180">
 <attribute name="MF" value="MURATA" x="143" y="155" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="GRM188R71H104KA93D" x="143" y="155" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="OC_FARNELL" value="8820023" x="143" y="155" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="40.235" y="64.765" size="0.8128" layer="25" rot="R180"/>
 <attribute name="VALUE" x="39.635" y="64.905" size="1.27" layer="27" rot="R180"/>
 </element>
-<element name="C48" library="rcl" package="C0603" value="12.5p" x="39" y="55" smashed="yes" rot="R180">
+<element name="C48" library="rcl" package="C0603" value="4.3p" x="39" y="55" smashed="yes" rot="R180">
 <attribute name="MF" value="MURATA" x="150" y="152" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="GRM188R71H104KA93D" x="150" y="152" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="OC_FARNELL" value="8820023" x="150" y="152" size="1.778" layer="27" rot="R180" display="off"/>
@@ -4823,8 +4823,7 @@ Bitte nur von autorisierten erfahrenen Nutzern anwenden!!!
 </element>
 <element name="Y1" library="Testing" package="RESONATOR-SMD-1:1" value="8MHz" x="45" y="58" smashed="yes" rot="R270">
 <attribute name="MF" value="MURATA" x="-85" y="203" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MPN" value="CSTCE8M00G55-R0" x="-85" y="203" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="OC_FARNELL" value="2443270" x="-85" y="203" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="CSTCE8M00G15C99-R0" x="-85" y="203" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="44.384" y="60.27" size="0.8128" layer="25"/>
 <attribute name="VALUE" x="43.4125" y="58.9525" size="0.4064" layer="27" rot="R270"/>
 </element>
@@ -4892,7 +4891,7 @@ Bitte nur von autorisierten erfahrenen Nutzern anwenden!!!
 <attribute name="VALUE" x="40.616" y="45.997" size="0.4064" layer="27" rot="R180"/>
 </element>
 <element name="JP5" library="pinhead" package="2X04" value="" x="75" y="40" smashed="yes" rot="R90">
-<attribute name="NAME" x="71.825" y="34.92" size="0.8128" layer="25" ratio="10" rot="R90"/>
+<attribute name="NAME" x="78.825" y="42.92" size="0.8128" layer="25" ratio="10" rot="R90"/>
 <attribute name="VALUE" x="79.445" y="34.92" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="U1" library="LibreSolar" package="SOIC-8-N" value="TJA1042T/3" x="5" y="61" smashed="yes">
@@ -4943,7 +4942,7 @@ Bitte nur von autorisierten erfahrenen Nutzern anwenden!!!
 <attribute name="MPN" value="MCMR06X1001FTL" x="73.8" y="34" size="0.8128" layer="27" display="off"/>
 <attribute name="MF" value="MULTICOMP" x="73.8" y="34" size="0.8128" layer="27" display="off"/>
 <attribute name="OC_FARNELL" value="2073348" x="73.8" y="34" size="0.8128" layer="27" display="off"/>
-<attribute name="NAME" x="73.165" y="34.635" size="0.8128" layer="25"/>
+<attribute name="NAME" x="76.565" y="34.035" size="0.6096" layer="25"/>
 <attribute name="VALUE" x="73.165" y="32.095" size="1.27" layer="27"/>
 </element>
 <element name="D29" library="SparkFun-DiscreteSemi" package="SOD-123" value="1N4148W" x="75" y="32" smashed="yes">
@@ -5327,8 +5326,8 @@ Bitte nur von autorisierten erfahrenen Nutzern anwenden!!!
 <wire x1="37.6" y1="63.4" x2="36.8" y2="63.4" width="0.254" layer="1"/>
 <wire x1="36.8" y1="54.6" x2="38" y2="54.6" width="0.254" layer="1"/>
 <wire x1="38" y1="54.6" x2="38" y2="55" width="0.254" layer="1"/>
-<via x="19" y="46" extent="1-16" drill="0.5"/>
-<via x="25" y="46" extent="1-16" drill="0.5"/>
+<wire x1="19" y1="46" x2="19" y2="46" width="0" layer="19" extent="1-16"/>
+<wire x1="25" y1="46" x2="25" y2="46" width="0" layer="19" extent="1-16"/>
 <via x="67" y="57.4" extent="1-16" drill="0.5"/>
 <via x="67" y="58.8" extent="1-16" drill="0.5"/>
 <via x="75" y="31" extent="1-16" drill="0.5"/>
@@ -5612,7 +5611,8 @@ Bitte nur von autorisierten erfahrenen Nutzern anwenden!!!
 <wire x1="40.8" y1="36" x2="48" y2="36" width="0.254" layer="1"/>
 <wire x1="48" y1="36" x2="49.45" y2="34.55" width="0.254" layer="1"/>
 <wire x1="49.45" y1="34.55" x2="49.45" y2="34" width="0.254" layer="1"/>
-<wire x1="49.45" y1="34" x2="48" y2="31.85" width="0" layer="19" extent="1-1"/>
+<wire x1="48" y1="31.85" x2="49.45" y2="33.3" width="0.254" layer="1"/>
+<wire x1="49.45" y1="33.3" x2="49.45" y2="34" width="0.254" layer="1"/>
 </signal>
 <signal name="VC6">
 <contactref element="IC1" pad="34"/>
